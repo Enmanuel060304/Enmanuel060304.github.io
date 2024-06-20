@@ -1,0 +1,120 @@
+* {
+  background-color: #202124;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen {
+  margin: 27px;
+}
+
+#searchbox {
+  margin: auto;
+  min-height: 46px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 574px;
+  max-width: 584px;
+  padding-left: 50px;
+  
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#searchbox:hover {
+    background-color: #303134;
+}
+
+.input-container {
+    position: relative;
+    height: 46px;
+    width: 574px;
+}
+
+
+
+#iconsearch {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9aa0a6;
+    background: transparent;
+}
+
+
+.bottons_submit {
+    display: flex;
+    margin-top: 18px;
+    height: 58px;
+    width: 584px;   
+    justify-content: center;
+    align-items: center;
+
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    text-align: -webkit-center;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.google input[type="submit"], .suerte input[type="submit"] {
+
+    border-radius: 4px;
+    border: 1px;
+    box-shadow: rgba(23, 23, 23, 0.24) 0px 1px 3px 0px;
+    background-color: #303134;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    margin-right: 12px;
+    user-select: none;
+
+}
+
+.google input[type="submit"]:hover, .suerte input[type="submit"]:hover {
+    border: 1px solid #9aa0a6;
+}
+
+.creditos {
+    height: 28px;
+    width: 341px;
+    margin-top: 10px;
+
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: normal;
+
+    background: #202124;
+    color: #bfbfbf;
+    
+}
+
+.creditos a {
+    color: #99c3ff;
+}
