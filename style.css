@@ -11,6 +11,81 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.buscarimg {
+  height: 48px;
+  width: 1524px;
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.iconos{
+  width: 300px;
+  height: 48px;
+  float: right;
+  margin: 6px;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: start;
+  letter-spacing: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gmail a{
+  height: 24px;
+  width: 33px;
+  color: #ffffff;
+  margin-left: 47px;
+  text-decoration: none;
+
+}
+
+.image a{
+  height: 24px;
+  width: 42px;
+  margin: 15px;
+  color: #ffffff;
+  text-decoration: none;
+
+
+}
+
+.labs{
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+}
+
+.labs svg {
+  border-radius: 50%;
+  box-shadow: none;
+  fill: #ffffff;
+  padding: 8px;
+  transition: background 0.9s;
+}
+
+
+.labs:hover svg {
+  background: #303134;
+}
+
+.account{
+  margin: 15px
+}
+.account img {
+  margin-top: 10px;
+  border-radius: 50%;
 }
 
 .imagen {
