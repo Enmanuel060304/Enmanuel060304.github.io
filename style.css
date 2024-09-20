@@ -1,195 +1,106 @@
-* {
-  background-color: #202124;
-  margin: 0px;
-  padding: 0px;
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.buscarimg {
-  height: 48px;
-  width: 1524px;
-  position: absolute;
-  top: 0;
-
-  display: flex;
-  justify-content: flex-end;
-}
-
-.iconos{
-  width: 300px;
-  height: 48px;
-  float: right;
-  margin: 6px;
-
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 27px;
-  text-align: start;
-  letter-spacing: normal;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.gmail a{
-  height: 24px;
-  width: 33px;
-  color: #ffffff;
-  margin-left: 47px;
-  text-decoration: none;
-
-}
-
-.image a{
-  height: 24px;
-  width: 42px;
-  margin: 15px;
-  color: #ffffff;
-  text-decoration: none;
-
-
-}
-
-.labs{
-  height: 40px;
-  width: 40px;
-
-  border-radius: 50%;
-}
-
-.labs svg {
-  border-radius: 50%;
-  box-shadow: none;
-  fill: #ffffff;
-  padding: 8px;
-  transition: background 0.9s;
-}
-
-
-.labs:hover svg {
-  background: #303134;
-}
-
-.account{
-  margin: 15px
-}
-.account img {
-  margin-top: 10px;
-  border-radius: 50%;
-}
-
-.imagen {
-  margin: 27px;
-}
-
-#searchbox {
-  margin: auto;
-  min-height: 46px;
-  background: #202124;
-  border: 1px solid #5f6368;
-  box-shadow: none;
-  border-radius: 24px;
-  margin: 0 auto;
-  width: 574px;
-  max-width: 584px;
-  padding-left: 50px;
-  
-  font-family: arial, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: start;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-
-#searchbox:hover {
-    background-color: #303134;
-}
-
-.input-container {
-    position: relative;
-    height: 46px;
-    width: 574px;
-}
-
-
-
-#iconsearch {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #9aa0a6;
-    background: transparent;
-}
-
-
-.bottons_submit {
-    display: flex;
-    margin-top: 18px;
-    height: 58px;
-    width: 584px;   
-    justify-content: center;
-    align-items: center;
-
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    line-height: normal;
-    text-align: -webkit-center;
-    letter-spacing: normal;
-    color: #ffffff;
-}
-
-.google input[type="submit"], .suerte input[type="submit"] {
-
-    border-radius: 4px;
-    border: 1px;
-    box-shadow: rgba(23, 23, 23, 0.24) 0px 1px 3px 0px;
-    background-color: #303134;
-    color: #e8eaed;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    padding: 0 16px;
-    margin: 11px 4px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    margin-right: 12px;
-    user-select: none;
-
 }
 
-.google input[type="submit"]:hover, .suerte input[type="submit"]:hover {
-    border: 1px solid #9aa0a6;
+/* Cuenta regresiva */
+#countdown {
+    background-color: #ff69b4;
+    padding: 20px;
+    color: white;
 }
 
-.creditos {
-    height: 28px;
-    width: 341px;
-    margin-top: 10px;
+#time {
+    font-size: 2rem;
+}
 
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: normal;
+/* Header */
+.header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    border-bottom: 5px solid #ff69b4;
+}
 
-    background: #202124;
-    color: #bfbfbf;
+/* Secciones */
+.section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+}
     
-}
+    /* Secciones */
+    .section {
+        margin: 30px auto;
+        padding: 20px;
+        width: 80%;
+        border-radius: 15px;
+    }
+    
+    .pucca {
+        background-color: #ff6347;
+    }
+    
+    .hello-kitty {
+        background-color: #ffb6c1;
+    }
+    
+    .barbie-hadas {
+        background-color: #dda0dd;
+    }
+    
+    .dragon-ball {
+        background-color: #ff8c00;
+    }
+    
+    /* Imágenes de los personajes */
+    .character-img {
+        width: 150px;
+        height: auto;
+        margin-bottom:  px;
+    }
+    
+    /* Mensaje final */
+    .message {
+        background-color: #ffe4e1;
+        padding: 20px;
+        margin: 20px auto;
+        width: 70%;
+        border-radius: 10px;
+        color: #ff1493;
+        font-size: 1.5rem;
+    }
+    
+    /* Sección para la foto de la amiga */
+    .amiga-foto {
+        background-color: #f0e68c;
+        padding: 20px;
+        border-radius: 10px;
+    }
 
-.creditos a {
-    color: #99c3ff;
-}
+    
+    
+    .amiga-foto h2 {
+        color: #ff1493;
+        font-size: 2rem;
+    }
+    
+    .friend-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid #ff69b4;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+    
+    /* Footer */
+    .footer {
+        background-color: #ff69b4;
+        padding: 10px;
+        color: white;
+    }
+    
