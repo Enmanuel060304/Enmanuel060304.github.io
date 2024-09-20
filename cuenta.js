@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fecha del cumpleaños (aquí pones la fecha de su cumpleaños)
-    const birthday = new Date("2024-09-19T29:20:00").getTime();
+    const birthday = new Date("2024-09-20T00:00:00").getTime();
 
     // Actualiza la cuenta regresiva cada segundo
     const countdownInterval = setInterval(function() {
